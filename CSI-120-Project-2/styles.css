@@ -1,0 +1,40 @@
+#gameStatus {
+    font-size: 5vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+  }
+  
+  #board {
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1vh;
+    text-align: center;
+    padding: 8px;
+    max-width: 1980px;
+  }
+  .empty{
+    background-color: rgb(226, 226, 226);
+  }
+  .cell {
+    border: 1px black solid;
+    border-radius: 4px;
+    height: 15vh;
+    font-size: 5vw;
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+  }
+#newGame {
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 10vh;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 5vh;
+  }
+  .correct{
+    background-color: rgb(184, 231, 184);
+  }
+  
